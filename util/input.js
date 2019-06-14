@@ -1,0 +1,15 @@
+/* eslint-disable no-unused-vars */
+const { createInterface } = require("readline");
+
+const rl = createInterface({
+  input: process.stdin,
+  output: process.stdout
+});
+
+module.exports = str => {
+  return new Promise((resolve, reject) => {
+    rl.question(str, answer => {
+      resolve(answer);
+    });
+  });
+};

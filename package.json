@@ -1,0 +1,32 @@
+{
+  "name": "rest-init",
+  "version": "1.0.0",
+  "description": "A lightweight CLI that saves your time by installing all the essential dependencies and structuring it for your RESTful API.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": "./commands.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sidsbrmnn/rest-init.git"
+  },
+  "keywords": [
+    "rest",
+    "rest-init",
+    "@sidsbrmnn/rest-init"
+  ],
+  "author": "Siddharth Subramanian",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sidsbrmnn/rest-init/issues"
+  },
+  "homepage": "https://github.com/sidsbrmnn/rest-init#readme",
+  "devDependencies": {
+    "eslint": "^5.16.0"
+  },
+  "dependencies": {
+    "commander": "^2.20.0"
+  }
+}
