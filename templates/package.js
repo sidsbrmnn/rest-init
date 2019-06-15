@@ -10,5 +10,6 @@ module.exports = app => {
   },
   "author": "${app.author}",
   "license": "MIT"
-}`;
+}
+`;
 };
