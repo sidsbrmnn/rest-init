@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 const program = require("commander");
-const { create, update } = require("./index");
+const { new, update } = require("./index");
 
 program
   .version("1.0.0")
@@ -13,7 +13,7 @@ program
   .command("new")
   .alias("n")
   .description("Create a new API")
-  .action(() => create());
+  .action(() => new());
 
 program
   .command("update <routes>")

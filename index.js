@@ -1,4 +1,4 @@
-const create = () => {
+const new = () => {
   //
 };
 
@@ -6,4 +6,4 @@ const update = routes => {
   //
 };
 
-module.exports = { create, update };
+module.exports = { new, update };
