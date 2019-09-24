@@ -2,12 +2,11 @@
   "name": "rest-init",
   "version": "1.0.0",
   "description": "A lightweight CLI that saves your time by installing all the essential dependencies and structuring it for your RESTful API.",
-  "main": "index.js",
+  "main": "./bin/rest-init-cli.js",
   "scripts": {
-    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "bin": "./commands.js",
+  "bin": "./bin/rest-init-cli.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sidsbrmnn/rest-init.git"

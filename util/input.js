@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 const { createInterface } = require("readline");
 
 const rl = createInterface({
@@ -7,7 +6,7 @@ const rl = createInterface({
 });
 
 module.exports = str => {
-  return new Promise((resolve, reject) => {
+  return new Promise(resolve => {
     rl.question(str, answer => {
       resolve(answer);
     });
